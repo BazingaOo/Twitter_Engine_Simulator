@@ -1,0 +1,247 @@
+************************************************************
+*****************    Register   ****************************
+************************************************************
+[Client] register,user0,password0
+[Server] creat successfully! Username is:  user0
+[Client] register,user1,password1
+[Server] creat successfully! Username is:  user1
+[Client] register,user2,password2
+[Server] creat successfully! Username is:  user2
+[Client] register,user3,password3
+[Server] creat successfully! Username is:  user3
+[Client] register,user4,password4
+[Server] creat successfully! Username is:  user4
+[Client] register,user5,password5
+[Server] creat successfully! Username is:  user5
+[Client] register,user6,password6
+[Server] creat successfully! Username is:  user6
+[Client] register,user7,password7
+[Server] creat successfully! Username is:  user7
+[Client] register,user8,password8
+[Server] creat successfully! Username is:  user8
+[Client] register,user9,password9
+[Server] creat successfully! Username is:  user9
+
+
+************************************************************
+*****************    Send Tweet   ****************************
+************************************************************
+[Client] send,user0,I am user0 This is0th tweet @user1 #topic4
+[Server] I am user0 This is0th tweet @user1 #topic4
+[Client] send,user0,I am user0 This is1th tweet @user7 #topic6
+[Server] I am user0 This is1th tweet @user7 #topic6
+[Client] send,user1,I am user1 This is0th tweet @user3 #topic9
+[Server] I am user1 This is0th tweet @user3 #topic9
+[Client] send,user1,I am user1 This is1th tweet @user1 #topic6
+[Server] I am user1 This is1th tweet @user1 #topic6
+[Client] send,user2,I am user2 This is0th tweet @user2 #topic3
+[Server] I am user2 This is0th tweet @user2 #topic3
+[Client] send,user2,I am user2 This is1th tweet @user9 #topic6
+[Server] I am user2 This is1th tweet @user9 #topic6
+[Client] send,user3,I am user3 This is0th tweet @user2 #topic6
+[Server] I am user3 This is0th tweet @user2 #topic6
+[Client] send,user3,I am user3 This is1th tweet @user7 #topic7
+[Server] I am user3 This is1th tweet @user7 #topic7
+[Client] send,user4,I am user4 This is0th tweet @user0 #topic1
+[Server] I am user4 This is0th tweet @user0 #topic1
+[Client] send,user4,I am user4 This is1th tweet @user3 #topic7
+[Server] I am user4 This is1th tweet @user3 #topic7
+[Client] send,user5,I am user5 This is0th tweet @user7 #topic3
+[Server] I am user5 This is0th tweet @user7 #topic3
+[Client] send,user5,I am user5 This is1th tweet @user8 #topic8
+[Server] I am user5 This is1th tweet @user8 #topic8
+disconnectd
+[Client] send,user7,I am user7 This is0th tweet @user6 #topic0
+[Server] I am user7 This is0th tweet @user6 #topic0
+[Client] send,user7,I am user7 This is1th tweet @user9 #topic8
+[Server] I am user7 This is1th tweet @user9 #topic8
+[Client] send,user8,I am user8 This is0th tweet @user0 #topic5
+[Server] I am user8 This is0th tweet @user0 #topic5
+[Client] send,user8,I am user8 This is1th tweet @user5 #topic2
+[Server] I am user8 This is1th tweet @user5 #topic2
+[Client] send,user9,I am user9 This is0th tweet @user6 #topic3
+[Server] I am user9 This is0th tweet @user6 #topic3
+[Client] send,user9,I am user9 This is1th tweet @user4 #topic6
+[Server] I am user9 This is1th tweet @user4 #topic6
+
+
+************************************************************
+*****************    subscribe   ****************************
+************************************************************
+[Client] subscribe,user1,user0
+[Server] subscribe success! username:user0
+[Client] subscribe,user2,user0
+[Server] subscribe success! username:user0
+[Client] subscribe,user3,user0
+[Server] subscribe success! username:user0
+[Client] subscribe,user4,user0
+[Server] subscribe success! username:user0
+[Client] subscribe,user5,user0
+[Server] subscribe success! username:user0
+[Client] subscribe,user6,user0
+[Server] subscribe success! username:user0
+[Client] subscribe,user7,user0
+[Server] subscribe success! username:user0
+[Client] subscribe,user8,user0
+[Server] subscribe success! username:user0
+[Client] subscribe,user9,user0
+[Server] subscribe success! username:user0
+[Client] subscribe,user0,user1
+[Server] subscribe success! username:user1
+[Client] subscribe,user0,user2
+[Server] subscribe success! username:user2
+[Client] subscribe,user0,user3
+[Server] subscribe success! username:user3
+[Client] subscribe,user0,user4
+[Server] subscribe success! username:user4
+[Client] subscribe,user0,user5
+[Server] subscribe success! username:user5
+[Client] subscribe,user0,user6
+[Server] subscribe success! username:user6
+[Client] subscribe,user0,user7
+[Server] subscribe success! username:user7
+[Client] subscribe,user0,user8
+[Server] subscribe success! username:user8
+[Client] subscribe,user0,user9
+[Server] subscribe success! username:user9
+
+
+************************************************************
+*****************    Retweet   ****************************
+************************************************************
+[Client] retweet,user0,user0
+[Server] success reTweet:user0 user0I am user0 This is0th tweet @user1 #topic4
+[Client] retweet,user0,user1
+[Server] success reTweet:user0 user1I am user1 This is0th tweet @user3 #topic9
+[Client] retweet,user1,user0
+[Server] success reTweet:user1 user0I am user0 This is0th tweet @user1 #topic4
+[Client] retweet,user1,user1
+[Server] success reTweet:user1 user1I am user1 This is0th tweet @user3 #topic9
+[Client] retweet,user2,user0
+[Server] success reTweet:user2 user0I am user0 This is0th tweet @user1 #topic4
+[Client] retweet,user2,user1
+[Server] success reTweet:user2 user1I am user1 This is0th tweet @user3 #topic9
+[Client] retweet,user3,user0
+[Server] success reTweet:user3 user0I am user0 This is0th tweet @user1 #topic4
+[Client] retweet,user3,user1
+[Server] success reTweet:user3 user1I am user1 This is0th tweet @user3 #topic9
+disconnectd
+[Client] retweet,user5,user0
+[Server] success reTweet:user5 user0I am user0 This is0th tweet @user1 #topic4
+[Client] retweet,user5,user1
+[Server] success reTweet:user5 user1I am user1 This is0th tweet @user3 #topic9
+[Client] retweet,user6,user0
+[Server] success reTweet:user6 user0I am user0 This is0th tweet @user1 #topic4
+[Client] retweet,user6,user1
+[Server] success reTweet:user6 user1I am user1 This is0th tweet @user3 #topic9
+[Client] retweet,user7,user0
+[Server] success reTweet:user7 user0I am user0 This is0th tweet @user1 #topic4
+[Client] retweet,user7,user1
+[Server] success reTweet:user7 user1I am user1 This is0th tweet @user3 #topic9
+[Client] retweet,user8,user0
+[Server] success reTweet:user8 user0I am user0 This is0th tweet @user1 #topic4
+[Client] retweet,user8,user1
+[Server] success reTweet:user8 user1I am user1 This is0th tweet @user3 #topic9
+[Client] retweet,user9,user0
+[Server] success reTweet:user9 user0I am user0 This is0th tweet @user1 #topic4
+[Client] retweet,user9,user1
+[Server] success reTweet:user9 user1I am user1 This is0th tweet @user3 #topic9
+
+
+************************************************************
+*****************    Querysubscribe   ****************************
+************************************************************
+[Client] querysubscribe,user0
+[Server] querySubscribe success
+[Client] querysubscribe,user1
+[Server] querySubscribe success
+[Client] querysubscribe,user2
+[Server] querySubscribe success
+[Client] querysubscribe,user3
+[Server] querySubscribe success
+[Client] querysubscribe,user4
+[Server] querySubscribe success
+[Client] querysubscribe,user5
+[Server] querySubscribe success
+[Client] querysubscribe,user6
+[Server] querySubscribe success
+[Client] querysubscribe,user7
+[Server] querySubscribe success
+[Client] querysubscribe,user8
+[Server] querySubscribe success
+[Client] querysubscribe,user9
+[Server] querySubscribe success
+
+
+************************************************************
+*****************    QueryHashTag   ****************************
+************************************************************
+disconnectd
+[Client] query#,user1,#topic9
+[Server] ###queryTweetByHashTag success
+[Client] query#,user2,#topic7
+[Server] ###queryTweetByHashTag success
+[Client] query#,user3,#topic1
+[Server] ###queryTweetByHashTag success
+[Client] query#,user4,#topic4
+[Server] ###queryTweetByHashTag success
+[Client] query#,user5,#topic4
+[Server] ###queryTweetByHashTag success
+[Client] query#,user6,#topic9
+[Server] ###queryTweetByHashTag success
+[Client] query#,user7,#topic4
+[Server] ###queryTweetByHashTag success
+[Client] query#,user8,#topic0
+[Server] ###queryTweetByHashTag success
+[Client] query#,user9,#topic3
+[Server] ###queryTweetByHashTag success
+
+
+************************************************************
+*****************    QueryMention   ****************************
+************************************************************
+[Client] query@,user0,@user3
+[Server] @@@queryTweetByMention success
+[Client] query@,user1,@user6
+[Server] @@@queryTweetByMention success
+[Client] query@,user2,@user8
+[Server] @@@queryTweetByMention success
+[Client] query@,user3,@user0
+[Server] @@@queryTweetByMention success
+[Client] query@,user4,@user8
+[Server] @@@queryTweetByMention success
+[Client] query@,user5,@user8
+[Server] @@@queryTweetByMention success
+[Client] query@,user6,@user3
+[Server] @@@queryTweetByMention success
+[Client] query@,user7,@user1
+[Server] @@@queryTweetByMention success
+[Client] query@,user8,@user4
+[Server] @@@queryTweetByMention success
+[Client] query@,user9,@user5
+[Server] @@@queryTweetByMention success
+
+
+************************************************************
+*****************    Random   ****************************
+************************************************************
+[Client] subscribe,user0,user1
+[Server] subscribe success! username:user1
+[Client] register,user1,password1
+[Server] username has existed
+[Client] retweet,user9,user6
+[Server] success reTweet:user9 user6I am user0 This is0th tweet @user1 #topic4
+[Client] query#,user5,#topic1
+[Server] ###queryTweetByHashTag success
+[Client] retweet,user1,user0
+[Server] success reTweet:user1 user0I am user0 This is0th tweet @user1 #topic4
+[Client] send,user9,this is random tweet1 #topic8 @user9
+[Server] this is random tweet1 #topic8 @user9
+[Client] register,user6,password6
+[Server] username has existed
+[Client] query#,user7,#topic0
+[Server] ###queryTweetByHashTag success
+[Client] send,user2,this is random tweet2 #topic5 @user2
+[Server] this is random tweet2 #topic5 @user2
+[Client] send,user6,this is random tweet3 #topic5 @user6
+[Server] this is random tweet3 #topic5 @user6
